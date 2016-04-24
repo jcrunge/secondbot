@@ -1,5 +1,8 @@
 #!/bin/bash
 echo "x" >> README.md
 git add .
-git commit -m "Hola"
+x= 0
+x= x + 1
+git commit -m "push #" + x
 git push origin master
+

@@ -1,6 +1,7 @@
 #!/bin/bash
-echo "x" >> README.md
+RNM=`expr $RANDOM % 100`
+echo $RNM >> README.md
 git add .
-git commit -m "Hola"
+git commit -m "push" 
 git push origin master
 
