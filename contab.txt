@@ -1,0 +1,1 @@
+*/1 * * * * ~jcrunge/Escritorio/script/crono.sh
