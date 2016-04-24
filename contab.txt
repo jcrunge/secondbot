@@ -1,1 +1,1 @@
-*/1 * * * * ~jcrunge/Escritorio/script/crono.sh
+*/1 * * * * cd Escritorio/script/ && ./crono.sh && cd .. && cd ..
